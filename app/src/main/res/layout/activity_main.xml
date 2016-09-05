@@ -14,5 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="com.example.helge.tutorial.MenuFragment"
-        tools:layout="@layout/fragment_menu"/>
+        tools:layout="@layout/fragment_menu"
+        tools:context="com.example.helge.tutorial.MainActivity"/>
 <!--</RelativeLayout>-->
