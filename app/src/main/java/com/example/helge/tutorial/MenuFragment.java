@@ -7,8 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 
 /**
@@ -67,6 +69,23 @@ public class MenuFragment extends Fragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
         inflater.inflate(R.menu.first_menu, menu);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.erster_eintrag:
+                Toast.makeText(getActivity(),"der erste",Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.zweiter_eintrag:
+                Toast.makeText(getActivity(),"der zweite",Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.dritter_eintrag:
+                Toast.makeText(getActivity(),"der dritte",Toast.LENGTH_LONG).show();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
 
     }
 

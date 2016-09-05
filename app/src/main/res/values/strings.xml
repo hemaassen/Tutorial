@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tutorial</string>
-    <string name="erster">Der erste Eintrag</string>
+    <string name="erster">Erster Eintrag</string>
+    <string name="zweiter">Zweiter Eintrag</string>
+    <string name="dritter">Dritter Eintrag</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

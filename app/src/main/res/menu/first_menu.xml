@@ -4,6 +4,12 @@
 
     <item android:id="@+id/erster_eintrag"
         android:title="@string/erster"
-        app:showAsAction="always"/>
+        app:showAsAction="never"/>
+    <item android:id="@+id/zweiter_eintrag"
+        android:title="@string/zweiter"
+        app:showAsAction="never"/>
+    <item android:id="@+id/dritter_eintrag"
+        android:title="@string/dritter"
+        app:showAsAction="never"/>
 
 </menu>
