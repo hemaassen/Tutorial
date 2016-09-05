@@ -3,6 +3,7 @@ package com.example.helge.tutorial;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements MenuFragment.OnFragmentInteractionListener {
 
@@ -14,7 +15,8 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.OnFr
     }
 
     @Override
-    public void onFragmentInteraction(Uri uri) {
+    public void onFragmentInteraction(String uri) {
+        Toast.makeText(this, uri, Toast.LENGTH_LONG).show();
 
     }
 }
